@@ -1,0 +1,162 @@
+[
+  {
+    "image": "/static/images/card1.jpg",
+    "title": "标志诞生记廿八｜一行物",
+    "type_info": "平面-标志",
+    "browse": {
+      "views": "1.5万",
+      "comment": 66,
+      "zan": 387
+    },
+    "author": {
+      "avatar": "/static/images/汝词工作室.jpg",
+      "name": "汝词工作室",
+      "sex": "男",
+      "home": "北京",
+      "work": "平面设计师",
+      "fans": 2482,
+      "attention": 47
+    },
+    "time": "56天前"
+  },
+  {
+    "image": "/static/images/card2.jpg",
+    "title": "半矩书｜廿四节气",
+    "type_info": "平面-字体/字形",
+    "browse": {
+      "views": "1.6万",
+      "comment": 42,
+      "zan": 526
+    },
+    "author": {
+      "avatar": "/static/images/avatar.jpg",
+      "name": "左佐工作室",
+      "sex": "男",
+      "home": "北京",
+      "work": "平面设计师",
+      "fans": 89372,
+      "attention": 47
+    },
+    "time": "10天前"
+  },
+  {
+    "image": "/static/images/card4.jpg",
+    "title": "《设计师的自我修养》修订版",
+    "type_info": "平面-书籍",
+    "browse": {
+      "views": "7.4万",
+      "comment": 103,
+      "zan": 659
+    },
+    "author": {
+      "avatar": "/static/images/爱读书的小Z.jpg",
+      "name": "爱读书的小Z",
+      "sex": "男",
+      "home": "北京",
+      "work": "艺术工作者",
+      "fans": 9060,
+      "attention": 47
+    },
+    "time": "1年前"
+  },
+  {
+    "image": "/static/images/card3.jpg",
+    "title": "标志诞生记三十一｜日谈公园",
+    "type_info": "平面-标志",
+    "browse": {
+      "views": "4.0万",
+      "comment": 101,
+      "zan": 1583
+    },
+    "author": {
+      "avatar": "/static/images/设计公开课.jpg",
+      "name": "设计公开课",
+      "sex": "男",
+      "home": "北京",
+      "work": "平面设计师",
+      "fans": 37957,
+      "attention": 25
+    },
+    "time": "235天前"
+  },
+  {
+    "image": "/static/images/card5.jpg",
+    "title": "松阪织／Zigeer",
+    "type_info": "平面-品牌",
+    "browse": {
+      "views": "11万",
+      "comment": 104,
+      "zan": 1013
+    },
+    "author": {
+      "avatar": "/static/images/楚陵.jpg",
+      "name": "楚陵",
+      "sex": "男",
+      "home": "深圳",
+      "work": "设计爱好者",
+      "fans": 10674,
+      "attention": 31
+    },
+    "time": "2年前"
+  },
+  {
+    "image": "/static/images/card6.jpg",
+    "title": "复调／Polyphony",
+    "type_info": "平面-品牌",
+    "browse": {
+      "views": "13万",
+      "comment": 138,
+      "zan": 2140
+    },
+    "author": {
+      "avatar": "/static/images/之间设计.jpg",
+      "name": "之间设计",
+      "sex": "男",
+      "home": "北京",
+      "work": "艺术/其他",
+      "fans": 34348,
+      "attention": 47
+    },
+    "time": "2年前"
+  },
+  {
+    "image": "/static/images/card7.jpg",
+    "title": "标志诞生记廿二｜青棵",
+    "type_info": "平面-标志",
+    "browse": {
+      "views": "4.7万",
+      "comment": 187,
+      "zan": 2126
+    },
+    "author": {
+      "avatar": "/static/images/侍家新风.jpg",
+      "name": "侍家新风",
+      "sex": "男",
+      "home": "北京",
+      "work": "产品设计师",
+      "fans": 717,
+      "attention": 64
+    },
+    "time": "3年前"
+  },
+  {
+    "image": "/static/images/card8.jpg",
+    "title": "必备工具手册",
+    "type_info": "文章-书籍-平面",
+    "browse": {
+      "views": "4.9万",
+      "comment": 153,
+      "zan": 1061
+    },
+    "author": {
+      "avatar": "/static/images/汉仪字库.jpg",
+      "name": "汉仪字库",
+      "sex": "男",
+      "home": "北京",
+      "work": "平面设计师",
+      "fans": 36331,
+      "attention": 52
+    },
+    "time": "3年前"
+  }
+]

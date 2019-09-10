@@ -1,0 +1,24 @@
+{
+  "basic": {
+    "name": "左佐工作室",
+    "sex": "男",
+    "avatar": "/static/images/avatar.jpg",
+    "description": "致力于文字的设计与研究",
+    "hometown": "北京/北京",
+    "home": "北京/北京",
+    "work": "平面设计师",
+    "age": "十岁零十个月",
+    "introduction": "左佐工作室 主理人 SGDA 深平协会员 —— 字体课程：佐字社™+CCtalk 知识星球：设计与方法 编著《设计师的自我修养》《治字百方》《排版的风格》 —— 2014年度十佳新锐设计师之一 中国十大最具灵感年轻设计师之一"
+  },
+  "number": {
+    "popularity": 15065979,
+    "integration": 1057,
+    "fans": 89372,
+    "attention": 47
+  },
+  "contact": {
+    "qq": "1025242798",
+    "vx": "zuotype［公众号］"
+  },
+  "tags": ["字体", "品牌", "书籍装帧", "品面设计", "标志"]
+}
