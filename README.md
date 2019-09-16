@@ -1,6 +1,6 @@
 # workspace
 
-> A Vue.js project
+> 站酷网某工作室主页仿写
 
 ## Build Setup
 

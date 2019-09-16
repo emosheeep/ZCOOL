@@ -56,40 +56,36 @@
       <keep-alive>
         <component :is="currentTabComponent"></component>
       </keep-alive>
-      <data></data>
       <Footer></Footer>
     </div>
   </div>
 </template>
 
 <script>
-$(() => {
-
-})
 export default {
   name: 'index',
   data () {
     return {
-      currentTabComponent: 'homePage',
+      currentTabComponent: 'Collection',
       items: [
         {
           title: '首页',
           name: 'homePage'
         }, {
           title: '推荐',
-          name: 'recommend'
+          name: 'Recommend'
         }, {
           title: '资料',
-          name: 'data'
+          name: 'Data'
         }, {
           title: '收藏',
-          name: 'collection'
+          name: 'Collection'
         }, {
           title: '生活',
-          name: 'life'
+          name: 'Life'
         }, {
           title: '创作历程',
-          name: 'process'
+          name: 'Process'
         }
       ]
     }

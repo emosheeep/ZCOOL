@@ -43,13 +43,6 @@ export default {
   name: 'Navbar'
 }
 $(function () {
-  // // 滚动监听
-  // window.addEventListener('scroll', function () {
-  //   let t = $('body, html').scrollTop() // 目前监听的是整个body的滚动条距离
-  //   if (t > 500) {
-  //     $('.nav').hide()
-  //   }
-  // })
   // 去掉上下箭头指示
   $('.el-submenu__title').find('i').remove()
   // 控制菜单选项高亮，防止鼠标进入下拉菜单时高亮消失
