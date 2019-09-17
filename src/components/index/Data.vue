@@ -1,5 +1,5 @@
 <template>
-  <div class="all">
+  <div class="page">
     <div class="basic-info">
       <p class="box-title">基本信息</p>
       <el-row class="data-rows">
@@ -94,7 +94,7 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-  .all
+  .page
     background-color rgb(244,244,244)
     height 1070px
     padding-top 20px

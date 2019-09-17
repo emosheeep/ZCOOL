@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="user.number"> <!--防止渲染错误（未获得数据就加载）--->
     <Navbar></Navbar>
     <div class="background">
       <div class="bgImg"></div>
@@ -45,9 +45,12 @@
             <el-button type="warning">关注</el-button>
             <el-button>私信</el-button>
           </div>
-          <div class="list-nav">
-            <div class="list-item" v-for="(item,index) in items" :key="index">
-              <a @click.prevent="currentTabComponent = item.name">{{item.title}}</a>
+          <div class="list-nav"> <!--组件导航栏-->
+            <div class="list-item"
+                 :class="{active: index === currentNavItem}"
+                 v-for="(item,index) in items"
+                 :key="index">
+              <a @click.prevent="changeModule(index,item.name)">{{item.title}}</a>
             </div>
           </div>
         </div>
@@ -67,6 +70,7 @@ export default {
   data () {
     return {
       currentTabComponent: 'Collection',
+      currentNavItem: 0,
       items: [
         {
           title: '首页',
@@ -85,7 +89,7 @@ export default {
           name: 'Life'
         }, {
           title: '创作历程',
-          name: 'Process'
+          name: 'Progress'
         }
       ]
     }
@@ -95,16 +99,26 @@ export default {
       return this.$store.state.user
     }
   },
+  methods: {
+    changeModule (index, ComponentName) {
+      this.currentNavItem = index
+      this.currentTabComponent = ComponentName
+    }
+  },
   components: {
     Navbar: () => import('@/components/Navbar.vue'),
+    Footer: () => import('@/components/Footer.vue'),
     homePage: () => import('./homePage.vue'),
     Data: () => import('./Data.vue'),
-    Footer: () => import('@/components/Footer.vue')
+    Collection: () => import('./Collection.vue'),
+    Life: () => import('./Life.vue'),
+    Recommend: () => import('./Recommend.vue'),
+    Progress: () => import('./Progress.vue')
   }
 }
 </script>
 
-<style lang="stylus">
+<style scoped lang="stylus">
   .background
     position fixed
     top 61px
@@ -201,4 +215,7 @@ export default {
       &:hover
         border-bottom black 2px solid
         color black
+  .active
+    border-bottom black 2px solid
+    color black
 </style>

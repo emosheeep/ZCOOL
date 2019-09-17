@@ -67,12 +67,9 @@
             </div>
           </div>
         </div>
-        <!--占位（space-between）-->
-        <div class="card-item"
-             :key="n"
-             style="box-shadow: none"
-             v-for="n in 5-cards.length%5">
-        </div>
+<!--        占位（space-between）-->
+<!--        eslint-disable-next-line-->
+        <div class="card-item" style="box-shadow: none" v-for="n in 5-cards.length%5"></div>
       </div>
     </div>
   </div>
@@ -117,7 +114,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style scoped lang="stylus">
   .all
     background-color white
   .list-content

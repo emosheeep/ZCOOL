@@ -31,7 +31,7 @@
       <div class="upload"><div></div></div>
       <div class="loginAndRegister">
         <el-link :underline="false">登陆</el-link>
-        <span>|</span>
+        <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
         <el-link :underline="false">注册</el-link>
       </div>
     </div>
