@@ -69,7 +69,7 @@ export default {
   name: 'index',
   data () {
     return {
-      currentTabComponent: 'Collection',
+      currentTabComponent: 'homePage',
       currentNavItem: 0,
       items: [
         {
