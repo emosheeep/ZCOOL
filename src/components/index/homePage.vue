@@ -245,20 +245,20 @@ export default {
             border-color white transparent transparent transparent
             position absolute
             bottom -15px
-            left 29px
+            left 19px
       .card-footer
         height 50px
         padding 0 16px
         div
           display flex
           transform translateY(50%)
-          img
-            cursor pointer
           span
             font-size 14px
-            margin-left 10px
+            cursor pointer
             &:hover
               color rgb(211,111,22)
+          a
+            margin-left 10px
           p
             margin 0 0 0 auto
             font-size 12px
