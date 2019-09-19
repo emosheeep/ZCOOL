@@ -73,7 +73,7 @@ export default {
         &:hover
           filter grayscale(0)
   .bottom
-    height 100px
+    height 80px
     width 1130px
     margin 0 auto
     div
@@ -97,5 +97,4 @@ export default {
         &:hover
           color grey
           border-bottom 1px solid #333
-
 </style>
