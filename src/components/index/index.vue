@@ -65,6 +65,14 @@
 </template>
 
 <script>
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
+import homePage from '@/components/index/homePage'
+import Collection from '@/components/index/Collection'
+import Data from '@/components/index/Data'
+import Recommend from '@/components/index/Recommend'
+import Life from '@/components/index/Life'
+import Progress from '@/components/index/Progress'
 export default {
   name: 'index',
   data () {
@@ -106,20 +114,21 @@ export default {
     }
   },
   components: {
-    Navbar: () => import('@/components/Navbar.vue'),
-    Footer: () => import('@/components/Footer.vue'),
-    homePage: () => import('./homePage.vue'),
-    Data: () => import('./Data.vue'),
-    Collection: () => import('./Collection.vue'),
-    Life: () => import('./Life.vue'),
-    Recommend: () => import('./Recommend.vue'),
-    Progress: () => import('./Progress.vue')
+    Navbar,
+    Footer,
+    homePage,
+    Data,
+    Collection,
+    Life,
+    Recommend,
+    Progress
   }
 }
 </script>
 
 <style scoped lang="stylus">
   .background
+    min-width 1200px
     position fixed
     top 61px
     text-align center
@@ -134,6 +143,7 @@ export default {
     position absolute
     top 61px
     width 100%
+    min-width 1200px
     .information
       .no-use
         background transparent !important
@@ -166,7 +176,7 @@ export default {
                 width 50%
               .first
                 position relative
-                &:after
+                &::after
                   content ""
                   width 1px
                   height 32px

@@ -46,6 +46,7 @@ export default {
   .all
     width 100%
     height 230px
+    min-width 1200px
     background-color rgb(40,40,40)
   .top
     height 130px
@@ -58,7 +59,7 @@ export default {
       color rgb(102,102,102)
       &:hover
         color grey
-      &:nth-child(1):before
+      &:nth-child(1)::before
         content url("/static/images/footer-mobile.svg")
         margin-right 5px
     div

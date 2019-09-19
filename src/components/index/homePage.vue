@@ -101,10 +101,10 @@ export default {
     // 控制字符长度,使用JavaScript闭包传参
     card_title () {
       return function (index) {
-        let tmp = this.cards[index].title
-        if (tmp.length > 11) {
-          return tmp.substr(0, 11) + '...'
-        } else return tmp
+        let title = this.cards[index].title
+        if (title.length > 11) {
+          return title.substr(0, 11) + '...'
+        } else return title
       }
     },
     cards () {
@@ -225,7 +225,7 @@ export default {
                 font-size 15px
             div:nth-child(1)
               position relative
-              &:after
+              &::after
                 content ""
                 width 1px
                 height 30px
@@ -239,7 +239,7 @@ export default {
               span
                 &:before
                   content ""
-          &:after
+          &::after
             content ""
             border 8px solid
             border-color white transparent transparent transparent
