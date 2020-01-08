@@ -1,6 +1,6 @@
 # workspace
 
-> 站酷网某工作室主页仿写
+[点击预览](http://117.78.2.96:8080/)
 
 # 参考
 [站酷网左佐工作室](https://archerzuo.zcool.com.cn/)

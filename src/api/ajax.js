@@ -25,6 +25,7 @@ export default function (url, data = {}, type = 'GET') {
       // 发送post请求
       promise = axios.post(url, data)
     }
+
     promise.then(function (response) {
       // 成功调用resolve
       resolve(response.data)

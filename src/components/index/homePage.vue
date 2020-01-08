@@ -50,6 +50,7 @@
                 <el-button>私信</el-button>
               </div>
             </div>
+<!--            浮层结束-->
           </div>
           <div class="card-footer">
             <div>
