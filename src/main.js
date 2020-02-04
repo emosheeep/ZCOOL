@@ -6,16 +6,14 @@ import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
 import store from './store/index.js'
-import 'normalize.css/normalize.css'
-import 'element-ui/lib/theme-chalk/index.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.min.js'
-/* eslint-disable */
-import $ from 'jquery'
 
 Vue.config.productionTip = false
 Vue.config.devtools = true
-Vue.use(ElementUI)
+
+if (process.env.NODE_ENV !== 'production') {
+  Vue.use(ElementUI)
+}
+
 Vue.use(Vuex)
 /* eslint-disable no-new */
 new Vue({

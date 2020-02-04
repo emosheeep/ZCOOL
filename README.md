@@ -1,24 +1,25 @@
 # workspace
+大二的实训的时候做的大作业，没找着人组队，就一个人做。就是切图，仿写。最近在学习webpack的优化，
+回过头来把这个项目的构建优化了一下，打开快多了。
 
-[点击预览](http://117.78.2.96:8080/)
+[点击预览](http://app.biubiubius.com:8002/)
 
-# 参考
+## 参考
 [站酷网左佐工作室](https://archerzuo.zcool.com.cn/)
+
+## 截图
+![截图](./screenshot.png)
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 开发模式
 npm run dev
 
-# build for production with minification
+# 构建并输出打包分析报告（构建出的项目需要放到服务器上运行）
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
